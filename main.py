@@ -54,6 +54,8 @@ def main():
             print("Path errato, riprova")
         except UnicodeDecodeError:
             print("Tipo di file errato")
+    else:
+        print("Scelta non valida")
 
     crea_grafico(list(risultato.keys()),list(risultato.values()))
 
